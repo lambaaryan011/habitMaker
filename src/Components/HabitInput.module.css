@@ -1,0 +1,30 @@
+.input {
+    width: 40%;
+    margin: 1.2vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+  }
+  .input:hover {
+    background-color: rgb(197, 195, 195);
+  }
+  .input:hover::placeholder {
+    color: aliceblue;
+  }
+  .savebtn {
+    background-color: rgb(48, 108, 244);
+    font-size: large;
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  .savebtn:hover {
+    background-color: rgb(7, 43, 126);
+    font-size: x-large;
+    margin: -0.5% -0.6% -0.7% -0.6%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: 400ms ease-in-out;
+  }

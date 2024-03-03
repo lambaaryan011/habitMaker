@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    margin: 0.5%;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 65vw;
+    text-align: center;
+    justify-content: space-around;
+  }
+  table:last-child {
+    margin-bottom: 1.5vh;
+  }
+  .data {
+    font-size: x-large;
+    padding: 3%;
+    font-family: Merriweather;
+  }
+  .btn {
+    background-color: rgb(48, 108, 244);
+    font-size: large;
+    height: 6vh;
+    width: 6.5vw;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  .btn:hover {
+    background-color: rgb(7, 43, 126);
+    font-size: x-large;
+    margin: -0.5% -0.6% -0.7% -0.6%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: 400ms ease-in-out;
+  }
